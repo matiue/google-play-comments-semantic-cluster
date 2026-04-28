@@ -6,6 +6,13 @@ I wanted to understand what people are really saying about Duolingo. Am I the on
 So I started reading comments. There were thousands. Obviously, I don't have time to read them all so I decided to code something that could.
 
 That same concept now powers caveman.cloud, where most conversations and user queries are already embedded. It's also used for clustering form inputs.
+## methodology 
+- using python library meant to scrape google play store 
+- cleaning the data
+- sentences embeddings using `BAAI/bge-m3`.
+- applies HDBSCAN clustering
+- find the centroid of clusters(farthest from each others)
+- find few mid-range comments to show diversity within the cluster
 
 
 ## Workflow Steps:
