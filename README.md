@@ -5,7 +5,7 @@ I wanted to understand what people are really saying about Duolingo. Am I the on
 
 So I started reading comments. There were thousands. Obviously, I don't have time to read them all so I decided to code something that could.
 
-That same concept now powers caveman.cloud, where most conversations and user queries are already embedded. It's also used for clustering form inputs.
+That same concept now powers caveman.cloud, where most conversations and user queries are already embedded. It's also used for clustering form inputs. ( the final vestion may be cosidered a self-supervised-learning approach)
 ## methodology 
 - using python library meant to scrape google play store 
 - cleaning the data
